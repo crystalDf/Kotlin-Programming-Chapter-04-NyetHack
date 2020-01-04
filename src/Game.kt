@@ -1,3 +1,4 @@
+import kotlin.math.min
 import kotlin.math.pow
 
 fun main(args: Array<String>) {
@@ -13,8 +14,9 @@ fun main(args: Array<String>) {
     printPlayerStatus(auraColor = auraColor, isBlessed = isBlessed, name = name, healthStatus = healthStatus)
     printFormattedPlayerStatus(statusFormatString, isBlessed, auraColor, healthPoints, name, healthStatus)
 
-    castFireball(5)
-    castFireball()
+    val inebriationStatus = castFireball(5)
+
+    println("Inebriation Status: $inebriationStatus")
 }
 
 private fun printFormattedPlayerStatus(
@@ -66,11 +68,8 @@ private fun formatAuraColor(
     isBlessed: Boolean,
     healthPoints: Int,
     isImmortal: Boolean
-): String {
-    val auraVisible = (isBlessed && healthPoints > 50) || isImmortal
-    val karma = (Math.random().pow((110 - healthPoints) / 100.0) * 20).toInt()
-    return if (auraVisible) {
-        when (karma) {
+) = if ((isBlessed && healthPoints > 50) || isImmortal) {
+        when ((Math.random().pow((110 - healthPoints) / 100.0) * 20).toInt()) {
             in 0..5 -> "RED"
             in 6..10 -> "ORANGE"
             in 11..15 -> "PURPLE"
@@ -78,7 +77,6 @@ private fun formatAuraColor(
             else -> "NONE"
         }
     } else "NONE"
-}
 
 private fun formatHealthStatus(healthPoints: Int, isBlessed: Boolean) =
     when (healthPoints) {
@@ -93,5 +91,15 @@ private fun formatHealthStatus(healthPoints: Int, isBlessed: Boolean) =
         else -> "is in awful condition!"
     }
 
-private fun castFireball(numFireballs: Int = 2) =
+private fun castFireball(numFireballs: Int = 2): String {
     println("A glass of Fireball springs into existence. (x$numFireballs)")
+
+    return when ((min(numFireballs, 100) + 1) / 2) {
+        in 1..10 -> "tipsy"
+        in 11..20 -> "sloshed"
+        in 21..30 -> "soused"
+        in 31..40 -> "stewed"
+        in 41..50 -> "..t0aSt3d"
+        else -> ""
+    }
+}
