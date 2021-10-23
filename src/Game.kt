@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     val isImmortal = false
     val auraColor = formatAuraColor(isBlessed, healthPoints, isImmortal)
     val healthStatus = formatHealthStatus(healthPoints, isBlessed)
-    val statusFormatString = "(HP)(A) -> H"
+    val statusFormatString = "(HP) (A) -> H"
 
     printPlayerStatus(auraColor = auraColor, isBlessed = isBlessed, name = name, healthStatus = healthStatus)
     printFormattedPlayerStatus(statusFormatString, isBlessed, auraColor, healthPoints, name, healthStatus)

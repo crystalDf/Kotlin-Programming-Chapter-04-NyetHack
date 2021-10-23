@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0b0d0ff5-d601-450c-824a-122e8d200749" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NyetHack/GameKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NyetHack/GameKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NyetHack/META-INF/NyetHack.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NyetHack/META-INF/NyetHack.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,6 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -25,14 +31,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
@@ -44,6 +49,15 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
       <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -58,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="GameKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="NyetHack" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -80,18 +94,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.GameKt" />
+        <item itemvalue="Application.GameKt" />
       </list>
     </recent_temporary>
   </component>
@@ -107,6 +112,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -132,37 +138,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578144752814</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Chapter 04 NyetHack">
+      <created>1578146994920</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578146994920</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Chapter 04 NyetHack" />
     <option name="LAST_COMMIT_MESSAGE" value="Chapter 04 NyetHack" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="164" y="23" key="CommitChangelistDialog2" timestamp="1578144752248">
-      <screen x="0" y="23" width="1280" height="713" />
-    </state>
-    <state x="164" y="23" key="CommitChangelistDialog2/0.23.1280.713@0.23.1280.713" timestamp="1578144752248" />
-    <state width="1218" height="117" key="GridCell.Tab.0.bottom" timestamp="1578146931939">
-      <screen x="0" y="23" width="1280" height="713" />
-    </state>
-    <state width="1218" height="117" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1578146931939" />
-    <state width="1218" height="117" key="GridCell.Tab.0.center" timestamp="1578146931938">
-      <screen x="0" y="23" width="1280" height="713" />
-    </state>
-    <state width="1218" height="117" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1578146931938" />
-    <state width="1218" height="117" key="GridCell.Tab.0.left" timestamp="1578146931938">
-      <screen x="0" y="23" width="1280" height="713" />
-    </state>
-    <state width="1218" height="117" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1578146931938" />
-    <state width="1218" height="117" key="GridCell.Tab.0.right" timestamp="1578146931938">
-      <screen x="0" y="23" width="1280" height="713" />
-    </state>
-    <state width="1218" height="117" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1578146931938" />
-    <state x="230" y="90" key="Vcs.Push.Dialog.v2" timestamp="1578144754411">
-      <screen x="0" y="23" width="1280" height="713" />
-    </state>
-    <state x="230" y="90" key="Vcs.Push.Dialog.v2/0.23.1280.713@0.23.1280.713" timestamp="1578144754411" />
   </component>
 </project>
